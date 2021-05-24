@@ -1,0 +1,14 @@
+
+Q1,Q2,Q3
+ 
+->
+create database if not exists NJCLAB;
+-> 
+create table NJCLAB(name varchar(16), dob vharchar(20), id int, primary key(id));
+->    
+insert into Users (name, dob, id) values('Asim', '01-05-1995', 2001)
+insert into Users (name, dob, id) values('Asim', '05-07-1998', 2002)
+insert into Users (name, dob, id) values('Asim', '09-08-1999', 2003)
+
+
+select * from NJCLAB
